@@ -85,3 +85,7 @@ Can be passed through with:
     "${data.ignition_systemd_unit.var_lib_docker_mount.id}",
   ]
 ```
+
+## Testing
+
+    $ cd test && terraform init && terraform apply
